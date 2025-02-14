@@ -31,7 +31,7 @@ jobs:
       #run: mvn -B package --file pom.xml
       run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -V -Pjre11
     - name: Archive Artifact
-    - uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v4
       with:
        name: Package
        path: staging
