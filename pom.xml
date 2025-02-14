@@ -427,7 +427,7 @@
 				</plugins>
 			</build>
 		</profile>
-		<profile>
+		<!--profile>
 			<id>jre23</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
@@ -466,7 +466,7 @@
 					</plugin>
 				</plugins>
 			</build>
-		</profile>
+		</profile-->
 	</profiles>
 	<build>
 		<resources>
