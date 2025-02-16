@@ -591,7 +591,7 @@
 							microsoft.sql
 						</_exportcontents>
 						<Import-Package>
-							!microsoft.sql,jdk.net;resolution:=optional,*</Import-Package>
+							!microsoft.sql,!com.ibm.security.auth.module,!com.sun.security.auth.module,jdk.net;resolution:=optional,*</Import-Package>
 						<Bundle-Activator>
 							com.microsoft.sqlserver.jdbc.osgi.Activator</Bundle-Activator>
 					</instructions>
